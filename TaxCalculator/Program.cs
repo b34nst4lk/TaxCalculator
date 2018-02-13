@@ -40,7 +40,7 @@ namespace TaxCalculator
             int i;
             bool bracketFound = false;
 
-            for (i = 7; i >= 0; i--)
+            for (i = minIncomeArray.Length - 1; i >= 0; i--)
             {
                 if (minIncomeArray[i] < annualIncome)
                 {
